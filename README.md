@@ -6,4 +6,4 @@ Then enter the project repository and run the application using the following co
 yarn start
 ```
 
-[Youtube video tutorial](https://youtu.be/-dKIL94R0dw)
+[Youtube video tutorial](https://youtu.be/UmwH691Wpcw)
