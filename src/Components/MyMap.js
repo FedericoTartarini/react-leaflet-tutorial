@@ -13,7 +13,7 @@ function MyMap() {
 
   React.useEffect(() => {
     fetch(
-      "https://raw.githubusercontent.com/aviklai/react-leaflet-kml/master/src/assets/example1.kml"
+      "https://raw.githubusercontent.com/FedericoTartarini/react-leaflet-tutorial/part_5_kml/src/Static/dengue-clusters-kml.kml"
     )
       .then((res) => res.text())
       .then((kmlText) => {
@@ -34,7 +34,7 @@ function MyMap() {
         attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <ReactLeafletKml kml={kml} />
+      {kml && <ReactLeafletKml kml={kml} />}
     </Map>
   );
 }
