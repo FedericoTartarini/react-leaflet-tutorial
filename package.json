@@ -10,6 +10,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-leaflet": "^2.7.0",
+    "react-leaflet-kml": "^1.0.4",
     "react-scripts": "3.4.1"
   },
   "scripts": {

@@ -6364,6 +6364,11 @@ lcid@^2.0.0:
   dependencies:
     invert-kv "^2.0.0"
 
+leaflet-kml@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/leaflet-kml/-/leaflet-kml-1.0.1.tgz#92aec859325cf96d62acb84931a5539e03f75c2a"
+  integrity sha512-9eL2gb+3aGpzM1YMqX864JYdKmd6Rzdg1KX/lu0dVfZOJtqA44YFh2VS6BFcY6LDnBdnKX0U+88DtPM5s65u5Q==
+
 leaflet@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.6.0.tgz#aecbb044b949ec29469eeb31c77a88e2f448f308"
@@ -8600,6 +8605,13 @@ react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-leaflet-kml@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/react-leaflet-kml/-/react-leaflet-kml-1.0.4.tgz#da336a1c2fcb98e3885ce24b636edd0d5001e179"
+  integrity sha512-LYYKPdW8EnBDO9bqh2/0ki9qk4HvyjUdRB6GB2WaKZRKRkqC53qXXXLvuAiNoqtb8kTJkPapeOdUVwsNSWxbXQ==
+  dependencies:
+    leaflet-kml "^1.0.1"
 
 react-leaflet@^2.7.0:
   version "2.7.0"
